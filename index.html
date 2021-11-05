@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Blog</title>
+  </head>
+
+
+
+  <body>
+    <h1>Mostly incoherent musings</h1>
+
+    <div class="filter-container"> 
+        <!---The search bar-->
+      <input
+        type="text"
+        id="filter"
+        class="filter"
+        placeholder="Filter posts..."
+      />
+    </div>
+
+
+
+
+    <div id="posts-container"  ><!--posts to be inserted dynamically-->
+
+
+      <!--- template of each individual post : 
+
+     <div class="post"> /each individual post entry has a class of post
+
+       <div class="number">0</div>
+
+        <div class="post-info">
+
+         <h2 class="post-title">Post-one</h2>
+
+         <p class="post-body">
+           Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Est voluptates ad eaque ipsum provident 
+            magnam quasi tempore nulla distinctio perferendis.
+         </p>
+        </div>
+
+       </div>
+
+     </div> -->
+
+
+    </div> 
+
+    <div class="loader">  <!--created using CSS animation-->
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
